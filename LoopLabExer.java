@@ -1,5 +1,12 @@
-class LoopLabExer
-{
+/**
+ * Author: Odaymon
+ * Date: Feb 2016
+ * Description:
+ * Lab Exercise for nesting loops.
+ * Prints a diamond using two methods being called by
+ * the main method.
+ */
+class LoopLabExer {
 	// Calls other methods to print the full image
 	public static void main(String[] args){
 		methodA();
