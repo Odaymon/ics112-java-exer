@@ -24,9 +24,7 @@ class LoopLabExer {
 			System.out.print("*");
 			// Print 12 asterisks
 			if(j == 6){
-				for(int l = 12; l>0; l--){
-					System.out.print("*");
-				}
+				System.out.print("************");
 			}
 			// Space after the 1st asterisk
 			for(int k = j; k>0; k--){
@@ -55,9 +53,7 @@ class LoopLabExer {
 			System.out.print("*");
 			// Print 12 asterisks
 			if(j == 5){
-				for(int l = 12; l>0; l--){
-					System.out.print("*");
-				}
+				System.out.print("************");
 			}
 			// Space after the 1st asterisk
 			for(int k = 11-j; k>0; k--){
