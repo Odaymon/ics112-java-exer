@@ -12,10 +12,13 @@ public class CelsiusToFarenheit{
 		
 		BufferedReader x = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Enter the celsius: ");
-		String s1 = x.readLine();
+		celsius = Double.parseDouble(x.readLine());
 
-		celsius = Double.parseDouble(s1);
-		farenheit = (celsius * 1.8 + 32);
+		farenheit = convertCelsius(celsius);
 		System.out.println("The farenheit equivalent is  "+farenheit);
+	}
+
+	public static double convertCelsius(double celsius){
+		return celsius * 1.8 + 32;
 	}
 }
